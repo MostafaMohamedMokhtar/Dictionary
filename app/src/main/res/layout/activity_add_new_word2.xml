@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewWordActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        android:id="@+id/word_edit_text"
+        android:maxLines="1"
+        android:hint="Word Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        android:id="@+id/meaning_edit_text"
+        android:maxLines="2"
+        android:layout_below="@+id/word_edit_text"
+        android:hint="Word Meaning"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        android:id="@+id/type_edit_text"
+        android:maxLines="1"
+        android:layout_below="@+id/meaning_edit_text"
+        android:hint="Word Type"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+</RelativeLayout>
